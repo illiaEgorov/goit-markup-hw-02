@@ -1,11 +1,81 @@
-body {
-    font-family: Arial, sans-serif;
-        color: #333;
-        background-color: #fff;
-}
-/* a {
-
+a {
+    text-decoration: none;
 }
 li {
+    list-style: none;
+}
+header{
+    background-color: #E7E9FC;
+}
+body {
+        background-color: #fff;
+        color: #434455;
+        font-family: 'Roboto', 'Raleway', sans-serif;
+}
+h1 {
+    color: #ffffff;
+}
+h2, h3 {
+    color: #2E2F42;
+}
 
-} */
+/* #region menu*/
+.menu {
+   
+}
+
+.menu-item {}
+
+.menu-item-link {
+    color: #2E2F42;
+}
+/* section address */
+.contacts-list {
+    color: #2E2F42;
+}
+/* #endregion */
+
+/* #region button */
+.first-section {
+    background-color: #2E2F42;
+;
+}
+button{
+    background-color: #4d5ae5;
+    color: #ffffff;
+    border-radius: 4px;
+    border: none;
+    padding-block: 16px;
+    padding-inline: 32px;
+    width: 169px;
+    height: 56px;
+}
+/* #endregion button */
+
+/* #region our team */
+.team-list {}
+
+.team-item {}
+
+.team-item-img {}
+
+.portfolio-list {}
+
+.portfolio-item {}
+
+.portfolio-item-img {}
+/* #endregion our team */
+/* #region Our Portfolio */
+.portfolio {
+    background-color: #E7E9FC;
+    color: #434455;
+}   
+
+/* #endregion Our Portfolio */
+
+/* #region footer */
+footer {
+    background-color: #2E2F42;
+    color: #F4F4FD;
+}
+/* #endregion footer */
