@@ -1,8 +1,8 @@
 a {
     text-decoration: none;
 }
-li {
-    list-style: none;
+ul {
+    list-style-type: none;
 }
 header{
     background-color: #E7E9FC;
@@ -15,23 +15,62 @@ body {
 h1 {
     color: #ffffff;
 }
-h2, h3 {
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+h3 {
     color: #2E2F42;
+}
+p{
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
 }
 
 /* #region menu*/
+.logo {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
 .menu {
    
 }
-
-.menu-item {}
+/* 
+.menu-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+} */
 
 .menu-item-link {
     color: #2E2F42;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
-/* section address */
+.menu-item-link:hover {
+    color: #4d5ae5;
+    text-decoration: underline;
+}
+/* section address УТОЧНИТЬ ЧЕГО НЕ РАБОТАЕТ*/
 .contacts-list {
-    color: #2E2F42;
+    color: green);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 /* #endregion */
 
@@ -40,30 +79,64 @@ h2, h3 {
     background-color: #2E2F42;
 ;
 }
-button{
+.button-order {
     background-color: #4d5ae5;
-    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
     border-radius: 4px;
     border: none;
-    padding-block: 16px;
-    padding-inline: 32px;
     width: 169px;
     height: 56px;
+    cursor: pointer;
+}
+.button-order:hover {
+    background-color: #404BBF;
 }
 /* #endregion button */
+/* #region strategy */
+
+/* #region strategy */
+.strategy-item {
+    width: 264px;
+    height: 104px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/* #endregion strategy */
 
 /* #region our team */
-.team-list {}
+.team-list {
+    background-color: #f4f4fd;;
+}
+/* .team-section {
+    width: 1440px;
+    height: 732px; */
 
-.team-item {}
+.team-item {
+    width: 264px;
+    height: 380px;
+    text-align: center;
+    border-radius: 0 0 4px 4px;
+    padding-block: 0px 32px;
+    padding-inline: 0px;
+    }
 
-.team-item-img {}
+/* .team-item-img {}
 
-.portfolio-list {}
+.portfolio-list {} */
 
-.portfolio-item {}
+.portfolio-item {
+    width: 360px;
+    height: 420px;
+    text-align: left;
+}
 
-.portfolio-item-img {}
+/* .portfolio-item-img {} */
 /* #endregion our team */
 /* #region Our Portfolio */
 .portfolio {
@@ -76,6 +149,14 @@ button{
 /* #region footer */
 footer {
     background-color: #2E2F42;
-    color: #F4F4FD;
 }
-/* #endregion footer */
+.footer-div {
+    width: 264px;
+    height: 112px;
+    text-align: left;
+}
+.footer-text {
+    color: #fff;
+    
+}
+/* #endregion footer *
