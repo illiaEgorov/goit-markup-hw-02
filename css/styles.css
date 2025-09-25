@@ -64,14 +64,18 @@ p{
     color: #4d5ae5;
     text-decoration: underline;
 }
-/* section address УТОЧНИТЬ ЧЕГО НЕ РАБОТАЕТ*/
+/* section address */
 .contacts-list {
-    color: green);
+    color: #434455;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.contacts-list:hover {
+    color: #404BBF;
+}
+
 /* #endregion */
 
 /* #region button */
