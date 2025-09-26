@@ -10,7 +10,7 @@ header{
 body {
         background-color: #fff;
         color: #434455;
-        font-family: 'Roboto', 'Raleway', sans-serif;
+        font-family: "Roboto",sans-serif, "Raleway";
 }
 h1 {
     color: #ffffff;
@@ -134,11 +134,11 @@ p{
 
 .portfolio-list {} */
 
-.portfolio-item {
+/* .portfolio-item {
     width: 360px;
     height: 420px;
     text-align: left;
-}
+} */
 
 /* .portfolio-item-img {} */
 /* #endregion our team */
@@ -154,11 +154,11 @@ p{
 footer {
     background-color: #2E2F42;
 }
-.footer-div {
+/* .footer-div {
     width: 264px;
     height: 112px;
     text-align: left;
-}
+} */
 .footer-text {
     color: #fff;
     
