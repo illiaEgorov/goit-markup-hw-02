@@ -10,7 +10,7 @@ header{
 body {
         background-color: #fff;
         color: #434455;
-        font-family: "Roboto",sans-serif, "Raleway";
+        font-family: "Roboto",sans-serif;
 }
 h1 {
     color: #ffffff;
@@ -30,9 +30,16 @@ p{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
-
+    letter-spacing: 0.02em
 }
+  /* повторение стилей для параграфов (условия задания)• */
+.text {
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+} 
 
 /* #region menu*/
 .logo {
@@ -41,6 +48,19 @@ p{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+}
+.logo-web {
+    color: #4d5ae5;
+}
+.logo-studio-header {
+    color: #2e2f42
+}
+.logo-studio-footer {
+    color: #f4f4fd;
+}
+.contacts {
+    font-style: normal;
 }
 .menu {
    
@@ -61,7 +81,11 @@ p{
     letter-spacing: 0.02em;
 }
 .menu-item-link:hover {
-    color: #4d5ae5;
+    color: #404bbf;
+    text-decoration: underline;
+}
+.menu-item-link:focus {
+    color: #404bbf;
     text-decoration: underline;
 }
 /* section address */
@@ -75,15 +99,25 @@ p{
 .contacts-list:hover {
     color: #404BBF;
 }
+.contacts-list:focus {
+    color: #404BBF;
+}
 
 /* #endregion */
 
 /* #region button */
 .first-section {
     background-color: #2E2F42;
-;
 }
+.first-section-title {
+        color: #ffffff;
+        font-size: 56px;
+        line-height: 1.07;
+        text-align: center;
+        letter-spacing: 0.02em;
+    }
 .button-order {
+    font-family: "Roboto", sans-serif;
     background-color: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
@@ -99,10 +133,19 @@ p{
 .button-order:hover {
     background-color: #404BBF;
 }
+.button-order:focus {
+    background-color: #404BBF;
+}
 /* #endregion button */
 /* #region strategy */
 
-/* #region strategy */
+/* #region second section strategy */
+.h3-h2-style {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
 .strategy-item {
     width: 264px;
     height: 104px;
@@ -113,21 +156,25 @@ p{
 }
 /* #endregion strategy */
 
-/* #region our team */
+/* #region our team/ section 3 */
 .team-list {
     background-color: #f4f4fd;;
 }
-/* .team-section {
-    width: 1440px;
-    height: 732px; */
-
-.team-item {
-    width: 264px;
-    height: 380px;
+.team-section {
+    background-color: #F4F4FD;
+}
+.title-section {
+    font-size: 36px;
+    line-height: 1.11;
     text-align: center;
-    border-radius: 0 0 4px 4px;
-    padding-block: 0px 32px;
-    padding-inline: 0px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+
+}   
+.team-item {
+    background-color: #FFFFFF;
+    
     }
 
 /* .team-item-img {}
