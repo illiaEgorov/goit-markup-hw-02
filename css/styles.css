@@ -199,7 +199,7 @@ p{
 /* #endregion Our Portfolio */
 
 /* #region footer */
-footer {
+.footer {
     background-color: #2E2F42;
 }
 /* .footer-div {
@@ -208,7 +208,8 @@ footer {
     text-align: left;
 } */
 .footer-text {
-    color: #fff;
-    
+    line-height: 1.5;
+    color: #F4F4FD; 
+    letter-spacing: 0.02em;
 }
 /* #endregion footer *
