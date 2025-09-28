@@ -51,9 +51,6 @@ p{
     font-family: "Raleway", sans-serif;
     color: #4d5ae5;
 }
-/* .logo-web {
-    color: #4d5ae5;
-} */
 .logo-studio-header {
     color: #2e2f42;
 }
@@ -63,16 +60,8 @@ p{
 .contacts {
     font-style: normal;
 }
-/* .menu {
-   
-} */
-/* 
-.menu-item {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-} */
+/* .menu  */
+/* .menu-item */
 
 .menu-item-link {
     color: #2E2F42;
@@ -125,10 +114,7 @@ p{
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    /* border-radius: 4px; */
-    border: none;
-    /* width: 169px;
-    height: 56px; */
+    /* border: none; */
     cursor: pointer;
 }
 .button-order:hover {
@@ -141,15 +127,13 @@ p{
 /* #region strategy */
 
 /* #region second section strategy */
-.h3-h2-style {
+.h-style {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
 .strategy-item {
-    /* width: 264px;
-    height: 104px; */
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -178,15 +162,12 @@ p{
     
     }
 
-/* .team-item-img {}
+/* .team-item-img {}  */
 
-.portfolio-list {} */
+/* .portfolio-list {}  */
 
-/* .portfolio-item {
-    width: 360px;
-    height: 420px;
-    text-align: left;
-} */
+/* .portfolio-item {} */
+
 
 /* .portfolio-item-img {} */
 /* #endregion our team */
@@ -202,11 +183,7 @@ p{
 .footer {
     background-color: #2E2F42;
 }
-/* .footer-div {
-    width: 264px;
-    height: 112px;
-    text-align: left;
-} */
+/* .footer-div */
 .footer-text {
     line-height: 1.5;
     color: #F4F4FD; 
